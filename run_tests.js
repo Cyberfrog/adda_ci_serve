@@ -7,7 +7,7 @@ child = exec('mocha ./tests',
 });
 var alertErr =function (err) {
 	console.log("failed -",err);
-	exec("vlc ./break.ogg vlc://quit");
+	exec("vlc ./choosle.mp3 vlc://quit");
 	printLog();
 	return true;
 }
